@@ -1,0 +1,2 @@
+Ini adalah file saya akan simpan di git
+Setelah masuk staging area

@@ -1,0 +1,62 @@
+# First Time Installing Git:
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+
+
+# Membuat folder .Git dalam project:
+git init
+Show hidden folder or files > command + shift + .
+Cek jika folder .git sudah ada
+
+
+# Menaikkan file atau folder ke staging:
+git add <file>
+git add .
+
+
+# Cek perubahan file atau folder:
+git status
+
+
+# Commit file atau folder yang di staging:
+git commit -m "Your commit message"
+
+
+# Cek history commit:
+git log
+
+
+# Generate keygen:
+ssh-keygen -t rsa
+enter file in which to save the key (/Users/user/~~):contoh
+enter passphrase (empty for no passphrase): (enter Aja)
+enter same passphrase again: (enter juga)
+enter terus sampai keluar gambar SHA256
+
+
+# connect to GitHub
+Sign up dulu bagi yang belum daftar
+setelah login, klik icon profile atas kanan ujung yang bulat > setting
+cari & klik SSH and GPG Keys SSH key
+klik New SSH Key
+Masukkan judul ssh key
+balik ke terminal & ketik cd ~/.ssh atau cd /Users/user/.ssh
+cat contoh.pub & copy paste isinya ke dalam key ssh
+klik Add SSH Keys
+
+
+# bikin repository di github
+buka lagi github.com
+klik new untuk bikin repository baru
+masukkan nama repository(contoh_repo)
+klik create repository
+
+
+# Upload file atau folder ke github
+git remote add origin git@github.com:YourName/contoh_repo.git
+git push -u origin main
+
+
+# Clone Repository:
+git clone git@github.com:YourName/contoh_repo.git
+
