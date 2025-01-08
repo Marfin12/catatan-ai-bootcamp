@@ -78,7 +78,10 @@ Ketik _python_ pada command prompt atau terminal teman-teman
    ```bash
    python main.py
    ```
-
+   Jika ingin menjalankan jupyter lab
+   ```bash
+   jupyter lab
+   ```
 ---
 
 ## Deaktivasi virtual environment
